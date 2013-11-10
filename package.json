@@ -8,7 +8,8 @@
   },
   "author": "Jason von Nieda <jvonnieda@playnetwork.com>",
   "license": "BSD-2-Clause",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "mocha": "~1.14.0",
     "should": "~2.0.2",
     "jshint": "~2.3.0"
