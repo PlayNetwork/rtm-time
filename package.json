@@ -1,0 +1,16 @@
+{
+  "name": "rtm-time",
+  "version": "0.0.1",
+  "description": "A simple library that parses time in Remember the Milk / Jira format, like 1h, 2d, 3.3m, 40s, etc.",
+  "main": "rtm-time.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jshint rtm-time.js; ./node_modules/.bin/mocha -R spec"
+  },
+  "author": "Jason von Nieda <jvonnieda@playnetwork.com>",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "mocha": "~1.14.0",
+    "should": "~2.0.2",
+    "jshint": "~2.3.0"
+  }
+}
